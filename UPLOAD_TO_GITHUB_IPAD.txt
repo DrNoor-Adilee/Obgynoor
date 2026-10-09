@@ -1,9 +1,0 @@
-رفع المشروع من الآيباد:
-1) افتحي مستودع GitHub باسم obgyn-master.
-2) ارفعي محتويات مجلد OBGYN_Master_Complete إلى جذر المستودع، وليس المجلد نفسه كطبقة إضافية.
-3) تأكدي أن index.html و package.json و vite.config.js في جذر المستودع، وأن مجلد src يحتوي main.jsx و styles.css و topics.js.
-4) اضغطي Commit changes.
-5) في Render اختاري New + ثم Static Site واربطِي مستودع obgyn-master.
-6) Build Command: npm install && npm run build
-7) Publish Directory: dist
-8) لا تضعي base: '/obgyn-master/' عند النشر على Render.
